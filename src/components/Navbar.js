@@ -13,7 +13,7 @@ class Navbar extends Component {
             https://www.iconfinder.com/Makoto_msk 
         */}
         <Link to="/">
-          <img src={logo} className="navbar brand" />
+          <img src={logo} className="navbar brand" alt="page logo" />
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
