@@ -1,7 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PayPalButton from "./PaypalButton";
 
-const CartTotals = ({ cartSubtotal, cartTax, cartTotal, clearCart }) => {
+const CartTotals = ({
+  cartSubtotal,
+  cartTax,
+  cartTotal,
+  clearCart,
+  history,
+}) => {
   return (
     <React.Fragment>
       <div className="container">

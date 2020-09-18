@@ -38,6 +38,7 @@ class Cart extends Component {
                     cartTax={cartTax}
                     cartTotal={cartTotal}
                     clearCart={clearCart}
+                    history={this.props.history}
                   />
                 </React.Fragment>
               );
